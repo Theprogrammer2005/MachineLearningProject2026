@@ -1,0 +1,12 @@
+seed: 42
+data:
+  raw_path: data/H2.csv
+  url: https://raw.githubusercontent.com/afaq-ahmad/Hotel-booking-demand-Case-Study/master/H2.csv
+  expected_rows: 79330
+  expected_cols: 31
+paths:
+  outputs: outputs
+  artifacts: artifacts
+eda:
+  adr_outlier_quantile: 0.999
+  high_cardinality_cols: [Country, Agent, Company]
